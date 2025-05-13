@@ -4,7 +4,7 @@
   .image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery a img {width: 100%; display: block;}
 </style>
-BLA BLA
+
 <div class="image-gallery">
 {% for file in site.static_files %}
   {% if file.path contains include.folder %}
@@ -14,7 +14,7 @@ BLA BLA
 
       <a href="{{ file.path }}" title="{{ filename }}">
         <img src="//weserv.nl/?url=https://www.zoran-cuckovic.from.hr/cours-uca/{{ file.path }}&w=300&h=300" 
-          alt="https://www.zoran-cuckovic.from.hr/cours-uca/{{ file.path }}" />
+          alt="" />
         <span>{{ filename }}</span>
       </a>
   https://www.zoran-cuckovic.from.hr/cours-uca/{{ file.path }}
@@ -22,3 +22,4 @@ BLA BLA
   {% endif %}
 {% endfor %}
 </div>
+https://www.zoran-cuckovic.from.hr/cours-uca/{{ file.path }}
