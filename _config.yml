@@ -5,7 +5,7 @@ host: 0.0.0.0
 safe: false
 
 site.url : zoran-cuckovic.github.io
-baseurl : /cours-uca #baseurl is only necessary when hosting your site in a sub-directory. 
+site.baseurl : /cours-uca #baseurl is only necessary when hosting your site in a sub-directory. 
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
