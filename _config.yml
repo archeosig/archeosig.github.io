@@ -17,8 +17,8 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "Systèmes d'information géographique (SIG)"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "Cours destiné aux etudiants en master d'archéologie à l'Université Celrmont Auvergne."
+keywords:    "Systèmes d'information géographique , SIG, cartographie, archéologie, géomatique, Université Clermont Auvergne, UCA"
+description: "Cours du master d'archéologie à l'Université Clermont Auvergne."
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
