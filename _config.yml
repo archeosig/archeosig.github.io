@@ -4,8 +4,8 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-site.url : zoran-cuckovic.github.io
-site.baseurl : /cours-uca #baseurl is only necessary when hosting your site in a sub-directory. 
+site.url : archeosig.github.io
+# site.baseurl :  #baseurl is only necessary when hosting your site in a sub-directory. 
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
